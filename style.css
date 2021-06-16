@@ -38,3 +38,8 @@
 
 }
 
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
