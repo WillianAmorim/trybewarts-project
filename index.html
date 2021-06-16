@@ -33,15 +33,25 @@
   <form>
     <input type="text" name="input-name" id="input-name" placeholder="Nome">
     <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
-    <input type="text" name="input-email" id="input-email" placeholder="Email">
   </form>
-
+  <input type="text" name="input-email" id="input-email" placeholder="Email">
+  
   <select name="house" id="house">
     <option value="Gitnória" id="gitnoria-house">Gitnória</option>
     <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
     <option value="Corvinode" id="corvinode-house">Corvinode</option>
     <option value="Pytherina" id="pytherina-house">Pytherina</option>
   </select>
+
+  <div class="family">
+    <label id="label-family">Qual sua família</label>
+    <input type="radio" id="frontend" name="family" value="Frontend">
+    <label for="frontend">Frontend</label>
+    <input type="radio" id="backend" name="family" value="Backend">
+    <label for="backend">Backend</label>
+    <input type="radio" id="fullstack" name="family" value="FullStack">
+    <label for="fullstack">FullStack</label>
+  </div>
 
   <script src="script.js"></script>
 </body>
