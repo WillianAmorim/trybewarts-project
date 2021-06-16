@@ -28,9 +28,7 @@
   display: flex;
   height: 500px;
   flex-direction: row-reverse;
-  justify-content: space-around;
-
-  
+  justify-content: space-around;  
 }
 
 .trybewarts-login {
@@ -47,11 +45,6 @@
 .linha {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.familias {
-  display: flex;
-  
 }
 
 
