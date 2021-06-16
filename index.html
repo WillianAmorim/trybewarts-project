@@ -21,27 +21,32 @@
   <main class="main">
     <form id="evaluation-form" action=""></form>
   </main>
-  <div>
+  <div class="selectAndForm">
     <div class="trybewarts-forms-logo">
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+      <form class="form">
+        <div class="inline">
+          <input type="text" name="input-name" id="input-name" placeholder="Nome">
+          <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
+        </div>
+        <div class="inline">
+          <input type="text" name="input-email" id="input-email" placeholder="Email">
+          <select name="house" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
+        <hr class="linha">
+      </form>
     </div>
-    <div>
-      
-    </div>
+    
   </div>
 
-  <form>
-    <input type="text" name="input-name" id="input-name" placeholder="Nome">
-    <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
-    <input type="text" name="input-email" id="input-email" placeholder="Email">
-  </form>
+  
 
-  <select name="house" id="house">
-    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-    <option value="Corvinode" id="corvinode-house">Corvinode</option>
-    <option value="Pytherina" id="pytherina-house">Pytherina</option>
-  </select>
+  
 
   <script src="script.js"></script>
 </body>

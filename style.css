@@ -27,8 +27,8 @@
 .trybewarts-forms-logo {
   display: flex;
   height: 500px;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
+  justify-content: space-around;
 
   
 }
@@ -37,4 +37,21 @@
   display: flex;
 
 }
+
+.inline {
+  display: flex;
+  align-items: baseline;
+  margin: 10px;
+}
+
+.linha {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.familias {
+  display: flex;
+  
+}
+
 
