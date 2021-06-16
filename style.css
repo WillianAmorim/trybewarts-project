@@ -6,6 +6,7 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+<<<<<<< HEAD
 }
 
 .main {
@@ -23,4 +24,12 @@
   height: 500px;
   flex-direction: row;
   justify-content: flex-end;
+=======
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+>>>>>>> fe3c68056a193a0bb5ac135a769a87d8c7bd5ab9
 }
