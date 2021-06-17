@@ -53,4 +53,8 @@
   flex-direction: column;
 }
 
+.avaliador {
+  display: flex;
+}
+
 
