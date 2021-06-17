@@ -41,3 +41,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.rate-label {
+  display: flex;
+  justify-content: flex-end;
+}
