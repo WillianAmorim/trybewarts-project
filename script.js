@@ -11,3 +11,16 @@ function btnClick() {
 
 const clickButton = document.getElementById('submit');
 clickButton.addEventListener('click', btnClick);
+
+function checkedBox() {
+  const button = document.getElementById('submit-btn');
+  const checkBox = document.getElementById('agreement');
+  if (checkBox.checked === true) {
+    button.disabled = false;
+  } else {
+    button.disabled = true;
+  }
+}
+
+const sendForm = document.getElementById('agreement');
+sendForm.addEventListener('click', checkedBox);
