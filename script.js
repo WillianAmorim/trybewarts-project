@@ -34,6 +34,6 @@ function countText() {
   document.getElementById('counter').innerHTML = total;
 }
 
-// Evento para atualizar o contador
+// Evento pra atualizar o contador
 const refreshCounter = document.getElementById('textarea');
 refreshCounter.addEventListener('keyup', countText);
